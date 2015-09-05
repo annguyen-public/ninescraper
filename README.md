@@ -9,7 +9,7 @@ npm install 9gag-scraper --save
 ## Usage
 
 ```js
-var gagScraper = require('9gag-scraper.js')
+var gagScraper = require('9gag-scraper')
 ```
 
 # Scrape data from a 9GAG section
