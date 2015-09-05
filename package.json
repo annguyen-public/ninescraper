@@ -1,0 +1,31 @@
+{
+  "name": "9gag-scraper",
+  "version": "1.0.0",
+  "description": "Scrape data/images from 9GAG website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shylesh107/9gag-scraper.git"
+  },
+  "keywords": [
+    "9gag",
+    "scraper",
+    "9gag-scraper",
+    "memes",
+    "meme-scraper",
+    "jokes"
+  ],
+  "author": "Shylesh Mohan <shylesh107@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shylesh107/9gag-scraper/issues"
+  },
+  "homepage": "https://github.com/shylesh107/9gag-scraper#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "x-ray": "^2.0.2"
+  }
+}
