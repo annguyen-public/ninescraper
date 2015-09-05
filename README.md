@@ -12,7 +12,7 @@ npm install 9gag-scraper --save
 var gagScraper = require('9gag-scraper')
 ```
 
-# Scrape data from a 9GAG section
+## Scrape data from a 9GAG section
 
 ```js
 new gagScraper("trending").getGags(function (error, data) {
@@ -28,14 +28,16 @@ new gagScraper("trending").getGags(function (error, data) {
 });
 
 // You can also pass in any valid section you want to scrape from ( Defaults to 'hot' )
-new gagScraper("nsfw").getGags(function (error, data) {
+new gagScraper("fresh").getGags(function (error, data) {
 });
 
 new gagScraper("meme").getGags(function (error, data) {
 });
 ```
 
-# To get a random post
+### NOTE : NSFW section scraping won't work as it requires users to login to view the content.
+
+## To get a random post
 
 ```js
 new gagScraper().getRandom(function (error, data) {

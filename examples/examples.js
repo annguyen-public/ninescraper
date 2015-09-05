@@ -13,7 +13,7 @@ new gagScraper().getGags(function (error, data) {
 });
 
 // You can also pass in the section you want to pass in as an argument ( Defaults to 'hot' )
-new gagScraper("nsfw").getGags(function (error, data) {
+new gagScraper("fresh").getGags(function (error, data) {
 });
 
 new gagScraper("trending").getGags(function (error, data) {
