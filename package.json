@@ -19,7 +19,12 @@
     "jokes"
   ],
   "author": "Shylesh Mohan <shylesh107@gmail.com>",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shylesh107/9gag-scraper/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/shylesh107/9gag-scraper/issues"
   },
