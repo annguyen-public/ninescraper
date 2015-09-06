@@ -1,5 +1,7 @@
 # 9gag-scraper
 
+[![Build Status](https://travis-ci.org/shylesh107/9gag-scraper.svg?branch=master)](https://travis-ci.org/shylesh107/9gag-scraper)
+
 *Scrape data from 9GAG website*
 
 ## Installation
@@ -35,7 +37,7 @@ new gagScraper("meme").getGags(function (error, data) {
 });
 ```
 
-### NOTE : NSFW section scraping won't work as it requires users to login to view the content.
+## NSFW section scraping won't work as it requires users to login to view the content.
 
 ## To get a random post
 
@@ -50,3 +52,7 @@ new gagScraper().getRandom(function (error, data) {
 new gagScraper("random").getGags(function (error, data) {
 });
 ```
+
+## Tests
+
+npm test
